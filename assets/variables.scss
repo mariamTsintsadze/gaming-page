@@ -1,0 +1,5 @@
+@mixin flexer($position){
+    display: flex;
+    justify-content: $position;
+    align-items: $position;
+}
